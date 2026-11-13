@@ -1,1 +1,1 @@
-# qa_guru_-pet_project
+# qa_guru_pet_project
