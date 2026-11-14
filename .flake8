@@ -1,0 +1,5 @@
+[flake8]
+filename = *.py
+exclude = */*
+max-line-length = 80
+ignore = E501, W503
