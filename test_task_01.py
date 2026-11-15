@@ -15,20 +15,15 @@ def driver():
     driver.quit()
 
 
-def base_url(item):
-    base_url_test = ["https://www.selenium.dev/", "https://github.com/"]
-    return base_url_test[item]
-
-
 def test_selenium_web(driver):
-    url = base_url(0)
+    url = "https://www.selenium.dev/"
     driver.get(url)
     assert driver.title == "Selenium"
     assert driver.current_url == url
 
 
 def test_git_web(driver):
-    url = base_url(1)
+    url = "https://github.com/"
     driver.get(url)
     assert (
         driver.title
